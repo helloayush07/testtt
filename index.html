@@ -10,7 +10,29 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
  <script src="js/appform.js"></script>
     <script src="js/jquery.validate.min.js"></script>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.4/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.4/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
 
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyClFDlPNjfIFo8M_3iHWqisty2LenzQceA",
+    authDomain: "borhade-10751.firebaseapp.com",
+    projectId: "borhade-10751",
+    storageBucket: "borhade-10751.appspot.com",
+    messagingSenderId: "210715308480",
+    appId: "1:210715308480:web:fe75e6854820ec55d79825",
+    measurementId: "G-JBJ9HRZ825"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
     <title>Borhade Import & Export</title>
 <!--
 Ayush Mishra 
@@ -72,7 +94,7 @@ function gotowhatsapp() {
                             <li><a href="#testimonials">Testimonials</a></li>
                             <li><a href="#pricing-plans">All Products</a></li>
                             <li><a href="#blog">Blog Entries</a></li>
-                            <li><a href="#contact-us">Contact Us</a></li>
+                            <li><a href="https://wa.me/+919096232459/">Contact Us</a></li>
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -117,7 +139,7 @@ function gotowhatsapp() {
                                     <i><img src="assets/images/1.png" alt=""></i>
                                 </div>
                                 <h5 class="features-title">Vegetables/Fruits</h5>
-                                <p>We deals with import/export of vegies</p>
+                                <p>We deals with export of vegies</p>
                             </div>
                         </div>
                         <!-- ***** Features Small Item End ***** -->
@@ -129,7 +151,7 @@ function gotowhatsapp() {
                                     <i><img src="assets/images/2.png" alt=""></i>
                                 </div>
                                 <h5 class="features-title">In Time</h5>
-                                <p>Contact us immediately if you have a question. We will solve it</p>
+                                <p>We deals with all type of ornaments import & Export</p>
                             </div>
                         </div>
                         <!-- ***** Features Small Item End ***** -->
